@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html { 
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #14142b;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    scrollbar-color: #e6ecf0 white;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: 5px !important; /* Firefox */
+    color: lightsteelblue;
+  }
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e6ecf0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #14142b;
+    border-radius: 8px;
+    border: 3px solid #e6ecf0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    scroll-behavior: smooth !important;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-flow: column;
+}
